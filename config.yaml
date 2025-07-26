@@ -1,0 +1,10 @@
+stream_url: "https://live.stream.radioarabella.de/radioarabella-muenchen/stream/mp3?aggregator=aramuc"
+invalid_titles:
+  - "Arabella München"
+  - ""
+  - null
+  - "-"
+  - "Radio Arabella - Mehr Musik, mehr Abwechslung"
+playlist_prefix: "Radio Arabella Auto"
+log_path: "./arabella_tidal.log"
+ffprobe_path: "./ffprobe"
