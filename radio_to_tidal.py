@@ -84,6 +84,9 @@ def add_to_tidal(title):
         log(f"Added: {top_hit.artist.name} – {top_hit.name}")
     except Exception as e:
         print(f"🛑 ERROR: {title} produced error: {e}")
+        time.sleep(3)
+        playlist.add([top_hit.id])
+
 
 # ⚠️ Clears all tracks in the playlist
 def clear_playlist():
